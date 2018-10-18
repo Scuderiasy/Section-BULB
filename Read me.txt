@@ -1,0 +1,21 @@
+Project Name: The Program for Assisting in Flash Communication Pattern Analysis in Fireflies based on Computer Vision
+
+I study a doctoral degree in Biological Science program at Department of Biology, Faculty of Science, Naresuan University, Thailand.
+
+This program is a part of My doctoral thesis, Detection of Flash Communication Pattern in Fireflies by high-throughput and precision method.
+This program was made to assist and help to study the flashing behavior the researcher and who is interesting in firefly flashing behavior.
+
+The sub-program, Section BULB were used to analyze the flashing behavior and provide the output: flash area, time-related of occurrence flash, and coordinated position. 
+This raw data can be interpreted to the flash pattern, pulse duration, and flash interval. However, the pulse duration and flash interval data require the sub-program Section GEMINI.
+
+This program was written based on computer vision to understand the firefly flash in footage of video. 
+The suitable video for analyzing with this program should recording under the low-light condition and without infrared light source (recommend).
+
+The EMGU CV was used as digital image processing library, the application of this program must follow to EMGU Open Source License.
+In addition, this program is the C# platform which builds through Visual Studio Community 2015, the application of this program must follow to the License also.
+
+The detail of this program was mentioned in Publication and Thesis. 
+I am a beginner programmer if you have the comment, suggestion, question. please feel free to contact me. 
+
+
+Sincerely, Thanaban Tathawee 

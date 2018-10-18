@@ -1,0 +1,23 @@
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Section BULB.exe.config
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section BULB.csprojResolveAssemblyReference.cache
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section BULB.csproj.ResolveComReference.cache
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section_BULB.Form1.resources
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section_BULB.main.resources
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section_BULB.Properties.Resources.resources
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section BULB.csproj.GenerateResource.Cache
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Section BULB.exe
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Section BULB.pdb
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.CV.dll
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.CV.GPU.dll
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.CV.ML.dll
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.CV.UI.dll
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.Util.dll
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\ZedGraph.dll
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.CV.xml
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.CV.GPU.xml
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.CV.ML.xml
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.CV.UI.xml
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\bin\Debug\Emgu.Util.xml
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section BULB.exe
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section BULB.pdb
+c:\users\thanaban\documents\visual studio 2015\Projects\Section BULB\Section BULB\obj\Debug\Section_BULB.Form2.resources
