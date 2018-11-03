@@ -16,6 +16,6 @@ In addition, this program is the C# platform which builds through Visual Studio 
 
 The detail of this program was mentioned in Publication and Thesis. 
 I am a beginner programmer if you have the comment, suggestion, question. please feel free to contact me. 
-
+thanabann@gmail.com
 
 Sincerely, Thanaban Tathawee 
