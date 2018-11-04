@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.next_file_button = new System.Windows.Forms.Button();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.show_freq_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -91,24 +91,24 @@
             // 
             // show_freq_chart
             // 
-            chartArea3.AxisX.Title = "frame number";
-            chartArea3.AxisY.Title = "freq";
-            chartArea3.Name = "ChartArea1";
-            this.show_freq_chart.ChartAreas.Add(chartArea3);
-            legend3.Alignment = System.Drawing.StringAlignment.Center;
-            legend3.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend3.Name = "Legend1";
-            this.show_freq_chart.Legends.Add(legend3);
+            chartArea1.AxisX.Title = "frame number";
+            chartArea1.AxisY.Title = "freq";
+            chartArea1.Name = "ChartArea1";
+            this.show_freq_chart.ChartAreas.Add(chartArea1);
+            legend1.Alignment = System.Drawing.StringAlignment.Center;
+            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend1.Name = "Legend1";
+            this.show_freq_chart.Legends.Add(legend1);
             this.show_freq_chart.Location = new System.Drawing.Point(12, 9);
             this.show_freq_chart.Name = "show_freq_chart";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Dark period";
-            series6.ChartArea = "ChartArea1";
-            series6.Legend = "Legend1";
-            series6.Name = "Flash period";
-            this.show_freq_chart.Series.Add(series5);
-            this.show_freq_chart.Series.Add(series6);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Flash period + Dark period";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Flash period";
+            this.show_freq_chart.Series.Add(series1);
+            this.show_freq_chart.Series.Add(series2);
             this.show_freq_chart.Size = new System.Drawing.Size(408, 254);
             this.show_freq_chart.TabIndex = 1;
             this.show_freq_chart.Text = "chart1";
@@ -665,7 +665,7 @@
             this.Controls.Add(this.Close);
             this.Controls.Add(this.open_excel);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Section GEMINI";
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.show_freq_chart)).EndInit();
             this.tabPage2.ResumeLayout(false);

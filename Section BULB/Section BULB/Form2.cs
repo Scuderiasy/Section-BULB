@@ -239,7 +239,7 @@ namespace Section_BULB
                             freq = freq + flash_duration + 1;
                             box[freq, 0]++;         // เพิ่มค่าถี่ของ duration ที่นับได้ ที่ มิติที่สอง (0) เนื่องจากไว้เก็บ duration ของช่วงสว่าง
                             status[1] = status[2];  // กำหนดค่า ปัจจุบัน ให้เป็นอดีตเพื่อเปรียบเทียบ
-                            this.show_freq_chart.Series["Dark period"].Points.AddXY(freq + 1, box[freq, 0]);
+                            this.show_freq_chart.Series["Flash period + Dark period"].Points.AddXY(freq + 1, box[freq, 0]);
                             status[3] = 0;      // คืนค่า array สำหรับนับความถี่
                             freq = 0;           // เซ็ตค่า freq เป็น 0 เพื่อรอการเปรียบเทียบ
                             flash_duration = 0;
@@ -280,7 +280,10 @@ namespace Section_BULB
 
             progressBar.Value = 100;
 
-            Application.Idle += save_excel_Click;
+            if (checkBox_multiple_run.Checked)
+            {
+                Application.Idle += save_excel_Click;
+            }
 
         }
 
@@ -344,9 +347,9 @@ namespace Section_BULB
                     {
                         start_column_save = cc;
                         excelWorkSheet1.Cells[1, cc] = sv_name;
-                        excelWorkSheet1.Cells[2, cc] = "จำนวนเฟรม";
-                        excelWorkSheet1.Cells[2, cc + 1] = "ความถี่ช่วงดับแสง";
-                        excelWorkSheet1.Cells[2, cc + 2] = "ความถี่ช่วงสว่างแสง";
+                        excelWorkSheet1.Cells[2, cc] = "Frame No.";
+                        excelWorkSheet1.Cells[2, cc + 1] = "Flash period + Dark period";
+                        excelWorkSheet1.Cells[2, cc + 2] = "Flash period";
                         break;
                     }
 
@@ -402,9 +405,9 @@ namespace Section_BULB
                         {
                             start_column_save = cc;
                             excelWorkSheet1.Cells[1, cc] = sv_name;
-                            excelWorkSheet1.Cells[2, cc] = "จำนวนเฟรม";
-                            excelWorkSheet1.Cells[2, cc + 1] = "ความถี่ช่วงดับแสง";
-                            excelWorkSheet1.Cells[2, cc + 2] = "ความถี่ช่วงสว่างแสง";
+                            excelWorkSheet1.Cells[2, cc] = "Frame No.";
+                            excelWorkSheet1.Cells[2, cc + 1] = "Flash period + Dark period";
+                            excelWorkSheet1.Cells[2, cc + 2] = "Flash period";
                             break;
                         }
 
@@ -424,10 +427,13 @@ namespace Section_BULB
 
                     excelApp1.Quit();
 
-                    Marshal.ReleaseComObject(excelApp);
+
+                    Marshal.ReleaseComObject(excelApp1);
                     excelApp1 = null;
                     GC.Collect();
                     GC.WaitForPendingFinalizers();
+
+                    
 
                     Array.Clear(box, 1, 51);
                     Array.Clear(box, 2, 2);
@@ -436,6 +442,8 @@ namespace Section_BULB
                         series.Points.Clear();
                     }
                 }
+
+                Application.Idle -= save_excel_Click;
 
             }
         }
