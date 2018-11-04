@@ -15,6 +15,9 @@ The EMGU CV was used as digital image processing library, the application of thi
 In addition, this program is the C# platform which builds through Visual Studio Community 2015, the application of this program must follow to the License also.
 
 The detail of this program was mentioned in Publication and Thesis. 
+
+The Source code is located in the "Section BULB" folder, the application (.exe file) is located in the "Section BULB application" folder
+
 I am a beginner programmer if you have the comment, suggestion, question. please feel free to contact me. 
 thanabann@gmail.com
 
