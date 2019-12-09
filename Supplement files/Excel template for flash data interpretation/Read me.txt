@@ -1,0 +1,6 @@
+Instruction
+1. copy the result from the analysis using the program "Section GEMINI" (open from Section Bulb.exe).
+2. paste in the column flash period + dark period (column B) and the column flash period (column C).
+3. the flash interval and pulse duration show in cell "E, 23" (Blue) and "E, 24" (Yellow cell), respectively.
+
+NOTE: if the frame rate of recording of video resource differs from the default setting (30 FPS) please change the FPS at cell (D, 27; orange color).

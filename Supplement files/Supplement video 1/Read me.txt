@@ -1,0 +1,3 @@
+The file extraction requirement 
+1. File extraction program: WinRAR
+2. both of files: supplement video 1.part1 and supplement video 1.part2
