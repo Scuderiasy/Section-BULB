@@ -312,7 +312,7 @@ namespace Section_BULB
         private void chart_showing(object sender, EventArgs e)
         {
 
-            this.chart1.Series["flash"].Points.AddXY(time_index, flash);  ////////////////////////////////  chart plot
+            this.chart1.Series["flash"].Points.AddXY(Math.Round(time_index, 2), flash);  ////////////////////////////////  chart plot
             //this.chart1.Series.Add("aa");
         }
 
