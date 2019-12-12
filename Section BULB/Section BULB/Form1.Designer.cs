@@ -162,6 +162,7 @@
             this.chart1.Location = new System.Drawing.Point(492, 246);
             this.chart1.Name = "chart1";
             series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series2.Legend = "Legend1";
             series2.Name = "flash";
             this.chart1.Series.Add(series2);
